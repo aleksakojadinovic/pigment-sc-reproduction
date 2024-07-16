@@ -1,6 +1,17 @@
-import Head from "next/head";
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
-  return <>jkahsdkjhasjkdjkashdkjsa</>;
-}
+import { styled } from "@pigment-css/react";
+
+import { SomeStyledComponent } from "../styles";
+
+const DestinationsSection = () => {
+  return <div>test</div>;
+};
+
+export default DestinationsSection;
+
+const StyledDiv = styled.div`
+  width: 200px;
+  height: 200px;
+  background-color: red;
+`;
